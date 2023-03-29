@@ -74,22 +74,31 @@ def checkIfCRSF(e):
     print(args)
 
 
-###########################
-## Custom Q4 Directories ##
-###########################
+#####################################
+## Custom Q4 Directories For Lab 6 ##
+#####################################
 @csrf.exempt
-@app.route('/Q4', methods=['GET'])
+@app.route('/Q4', methods=['GET', 'POST'])
 @cross_origin(supports_credentials=False, origins="*")
 def cookieIndex():
     if lab_4:
         return redirect("/")
     q4 = Q4index()
     ip = request.remote_addr
-    suffix = str(suffix)
-    if len(suffix) == 3:
-        print(ip)
-        return q4.loadPage(str(ip), suffix)
-    return "Hey, thats not a possible route buddy. Try a different number :)."
+
+    #Post request for transfer
+    if (request.method == "POST"):
+        return q4.transfer(ip, request.form["money"])
+    
+    #Get request for transfer
+    elif(request.method == "GET" and len(request.args) != 0):
+        try:
+            return q4.transfer(ip, request.args["money"])
+        except:
+            return q4.loadPage()
+    
+    #Just load the page
+    return q4.loadPage()
 
 
 # ######################

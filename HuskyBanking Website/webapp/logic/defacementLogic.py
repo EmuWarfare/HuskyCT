@@ -8,12 +8,41 @@ import hashlib
 
 class Q4index():
     def __init__(self):
-        with open(f"{cwd}{sep}webapp{sep}JSONs{sep}cookies.json", "r") as jFile:
-            self.cookies = json.load(jFile)
-    def loadPage(self, ip, suffix):
-        if self.cookies[ip]["Q4"] == suffix:
-            return render_template(f"index.html", cookie=self.cookies[ip]["cookie"])
-        return render_template(f"index.html", cookie="Try again, not the correct site")
+        self.transferInput = TransferInput()
+
+
+        with open(f"{cwd}{sep}webapp{sep}JSONs{sep}magicNumber.json", "r") as jFile:
+            self.magicNumber = json.load(jFile)
+
+
+    
+    def loadPage(self):
+        return render_template(f"Q4.html", transferPg=self.transferInput, 
+                               moneyAmount=None, transferHappened=False, badTransfer=False, maliciousTransfer=False, cookieValue=None)
+    
+    def transfer(self, ip, moneyAmount=None):
+        if moneyAmount == None:
+            moneyAmount = str(self.transferInput.moneyAmount.data)
+
+        has_magic_number = moneyAmount.startswith(self.magicNumber[ip]["magicNumber"])
+        cookie = self.magicNumber[ip]["cookie"]
+
+        #has magic number in begining
+        if (has_magic_number):
+            return render_template("Q4.html", transferPg=self.transferInput, 
+                               moneyAmount=moneyAmount, transferHappened=False, badTransfer=False, maliciousTransfer=True, cookieValue=cookie)
+        
+        #is a normal digit
+        elif (moneyAmount.isdigit()):
+            return render_template("Q4.html", transferPg=self.transferInput, 
+                               moneyAmount=moneyAmount, transferHappened=True, badTransfer=False, maliciousTransfer=False, cookieValue=None)
+        
+        #some sort of bad transfer
+        else:
+            return render_template("Q4.html", transferPg=self.transferInput, 
+                               moneyAmount=None, transferHappened=False, badTransfer=True, maliciousTransfer=False, cookieValue=None)
+        
+    
 
 
 # class DefacementPage():

