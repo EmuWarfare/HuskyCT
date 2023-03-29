@@ -1,0 +1,36 @@
+{% extends "userPage.html" %}
+{% block extra %}
+{% if alert %}
+		{% autoescape false %}
+		<p>Recipient {{ userPg.username.data }} not found</p>
+	{#	<script>alert("Recipient "+userName+" is not within the database");</script> #}
+		{% endautoescape %}
+{% endif %}
+
+
+    {% if invalidTransfer != None %}
+    <p>{{ invalidTransfer }}</p>
+    {% endif %}
+
+    <p>Please enter the username and the amount of money to be transfered.</p>
+
+    <p id="userName"> {{ transferPg.username.label }}: {{ transferPg.username(size=32)|safe }} </p>
+
+	<p id="moneyAmount"> {{ transferPg.moneyAmount.label }}: {{ transferPg.moneyAmount(size=32) }} </p>
+
+	<p id="transfer">{{ transferPg.transfer() }}</p>
+
+    {% if transferHappened %} 
+
+        {% autoescape false %}
+
+            <p>Money has been transfered! The ammount was {{ moneyAmount }}</p>
+        
+        {% endautoescape %}
+
+    {% endif %}
+
+    {% block userInput %} {% endblock %}
+
+{% endblock %}
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<title>Husky Banking</title>
+	<link rel="stylesheet" href="/static/base.css">
+</head>
+
+
+
+<body>
+	<form id="mainHandler" method="post">
+		<h1 id="loginHeader">Husky Banking</h1>
+		<p id="slogan">A bank where you know your money is in the right paws!</p>
+		<!-- used for inheratance, this is where the baseLogin block will be placed -->
+
+		<!-- login tag that prevents cross scripting -->
+		
+		{% if alert %}
+			<script>alert("Wrong username or password.");</script>
+		{% endif %} 
+
+		<!-- Input objects being called through the login class that is passed through -->
+		<p id="userInput"> {{ login.username.label }}: {{ login.username(size=32) }} </p>
+
+		<p id="passInput"> {{ login.password.label }}: {{ login.password(size=32) }} </p>
+
+		<p id="signIn">{{ login.submit() }}</p>
+
+		{% if basicLogin %}
+		<p id="customPage"> {{ login.customPage() }}</p>
+		{% endif %}
+
+		<!-- Where the login block is placed -->
+		{% block login %}{% endblock %}
+	</form>
+</body>
+</html>

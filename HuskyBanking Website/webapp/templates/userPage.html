@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <title>User login</title>
+    <!-- Script that picks an image to show based off of users balance -->
+    <script type="text/javascript">
+        function foo(){
+            const num = "{{ balance }}";
+            var p = document.createElement("p");
+            var text = "You have " + num + " in your bank account.";
+            text = document.createTextNode(text);
+            p.appendChild(text);
+            document.getElementById("para").appendChild(p);
+            document.getElementById("img").src = "static/images/olJohn.jpeg";
+            if (parseInt(num, 10) > 0) document.getElementById("img").src = "static/images/jBday.jpeg";
+        }
+    </script>
+</head>
+
+<body onload="foo()">
+    <form method="post">
+        <!-- shows logged in status, balance number, and image.-->
+        <h1>You Logged In as {{ user }}!!</h1>
+        <p id="para"></p>
+
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+
+        <div>
+            <img id="img" src="">
+        </div>
+
+        {% block extra %}{% endblock %}
+
+        <p id="logout">{{ lg.logOut() }}</p>
+    </form>
+</body>
