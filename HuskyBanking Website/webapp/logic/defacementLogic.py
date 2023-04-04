@@ -24,7 +24,7 @@ class Q4index():
         if moneyAmount == None:
             moneyAmount = str(self.transferInput.moneyAmount.data)
 
-        has_magic_number = moneyAmount.startswith(self.magicNumber[ip]["magicNumber"])
+        has_magic_number = moneyAmount.startswith(str(self.magicNumber[ip]["magicNumber"]))
         cookie = self.magicNumber[ip]["cookie"]
 
         #has magic number in begining

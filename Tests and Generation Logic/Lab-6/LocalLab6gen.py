@@ -1,7 +1,6 @@
 # L1Setup.py
 from http import cookies
 import json
-from msilib.schema import Class
 import os
 import random
 import shutil
@@ -11,7 +10,7 @@ import pandas as pd
 import string
 
 cwd = os.getcwd()
-sep = os.sep()
+sep = os.sep
 
 # NOTE WARNING!!! DO NOT EXECUTE THIS FILE IN MAIN Lab4 DIRECTORY!!!
 # For testing purposes, go to the "LabGen" folder
@@ -33,8 +32,7 @@ class LocalGeneration():
         self.dictAccount = {}
         self.solutionsDict = None
         self.cookiesDict= dict()
-        self.defacementDict = dict()
-        self.tokenDataFrame = pd.DataFrame(columns=["ip", "Q2", "Q5"], index=range(256))
+        self.tokenDataFrame = pd.DataFrame(columns=["ip", "Q2", "Q3", "Q4", "Q5"], index=range(256))
 
         #===|[ Constant Open files ]|===#
         print("Beginning automated setup...\n")
@@ -45,12 +43,12 @@ class LocalGeneration():
 
     
     #===|[ Generates a singular account with a random custom username. Also generates account metadata. ]|===#
-    def randomAccount(self, victim, i, ipSuffix):
+    def randomAccount(self, victim, ipSuffix):
         balance = random.randint(100, 100000)
         username = random.choice(self.username_list) + str(ipSuffix) #username has subnet IP that way its unique for everyone
         password = random.choice(self.password_list)
         if victim:
-            username = "B"+ str(i) + username
+            username = "B_" + username
             h = hashlib.sha256()
             h.update(password.encode())
 
@@ -61,39 +59,27 @@ class LocalGeneration():
                 }
             )
         elif not victim:
-            username = "A" + str(i) + username
+            username = "A_" + username
         self.dictAccount.update({
             username:
             {
                 "password" : password, 
-                "balance" : balance
+                "balance" : balance,
+                "ipAddress": (self.baseIP + str(ipSuffix))
             }
             })
         
         return username
-
-    def lenThreeSuffix(self):
-        i = random.randrange(0, 1000)
-        suffix = ""
-
-        #make all strings equal to 3 chars length
-        match len(str(i)):
-            case 1:
-                suffix = "00" + str(i)
-            case 2:
-                suffix = "0" + str(i)
-            case 3:
-                suffix = str(i)
-        return suffix
     
     #===|[ Generates addresses for Q4, and the special cookie for Q3 ]|===#
     def cookiesJson(self, ipSuffix):
-        
-        suffix = self.lenThreeSuffix()
+
+
 
         #write in dictionary
         cook_q4 = random.randint(100, 100000)
         q3_cook = random.randint(100, 100000)
+        magic_number = random.randint(0, 1000)
 
         ip = self.baseIP
         ip += ipSuffix
@@ -101,7 +87,7 @@ class LocalGeneration():
         self.cookiesDict.update({
             ip:
             {
-                "Q4": suffix,
+                "magicNumber": magic_number,
                 "cookie": cook_q4,
                 "Q3Cookie": q3_cook
             }
@@ -116,75 +102,60 @@ class LocalGeneration():
         
     
     
-    def tokenGen(self, ip):
-        gen = lambda : ''.join(random.choices(string.ascii_uppercase + string.digits, k=7))
-        genList = (ip, gen(), gen())
-        self.tokenDataFrame.iloc[ip] = genList
+    def tokenGen(self, ip, subdomain):
+        gen = lambda : ''.join(random.choices(string.ascii_uppercase + string.digits, k=5))
+        genList = (ip, gen(), gen(), gen(), gen())
+        self.tokenDataFrame.iloc[subdomain] = genList
         self.solutionsDict.update(
             {
-                "Q2": genList[1],
-                "Q5": genList[2]
+                "Q2_token": genList[1],
+                "Q3_token": genList[2],
+                "Q4_token": genList[3],
+                "Q5_token": genList[4]
             }
         )
-    
-    def generateCustomString(self, ipSuffix, groupWD):
-        suffix = self.lenThreeSuffix()
-        ip = self.baseIP + str(ipSuffix)
-        self.defacementDict.update({
-            ip: {
-                "suffix": suffix,
-                "access": "False"
-            }
-        })
 
     def lab6Gen(self):
+        print("Begining Generation")
         for ipSubdomain in range(256):
+            print(f"Generating for ip {ipSubdomain}")
             self.solutionsDict = {}
 
             groupWD = f"{cwd}{sep}Student Related Content{sep}LabGen{sep}Lab6{sep}{self.baseIP}{ipSubdomain}"
-            solutionsWD = self.cwd + "\\Solutions\\" + self.baseIP + str(ipSubdomain)
 
             #===|[ Directory creation ]|===#
             if (not os.path.exists(groupWD)): os.makedirs(groupWD)
-            if (not os.path.exists(solutionsWD)): os.makedirs(solutionsWD)
 
             #===|[ Question 1 ]|===#
             # generate account names, passwords, balance, and cookies
             with open(f"{groupWD}{sep}Q1Login", "w") as q1:
-                for i in range(1, 3):
-                    username = self.randomAccount(False, i, ipSubdomain)
-                    q1.write(username + "," + self.dictAccount.get(username).get("password") + "\n")
-                for i in range(1, 3):
-                    username = self.randomAccount(True, i, ipSubdomain)
-                    q1.write(username + "," + self.dictAccount.get(username).get("password") + "\n")
-
-            #===|[ Question 2 ]|===#
-            # custom token for Q2
-            self.tokenGen(ipSubdomain, self.baseIP + str(ipSubdomain))
+                #Attacker
+                username = self.randomAccount(False, ipSubdomain)
+                q1.write(username + "," + self.dictAccount.get(username).get("password") + "\n")
+                #Benign
+                username = self.randomAccount(True, ipSubdomain)
+                q1.write(username + "," + self.dictAccount.get(username).get("password") + "\n")
 
             #===|[ Question 3, 4 ]|===#
             # make the custom page for Q4
             self.cookiesJson(str(ipSubdomain))
-
-            #===|[ Question 5 ]|===#
-            self.generateCustomString(ipSubdomain)
             
-            #===|[ Question 5/6 ]|===#
+            #===|[ Question 2,3,4,5 ]|===#
             # Generate the tokens for them
 
-            with open(f"{cwd}{sep}Student Related Content{sep}Solutions{sep}Lab6{sep}172.16.50.{ipSubdomain}_solutions.json") as solutionJson:
+            self.tokenGen(self.baseIP + str(ipSubdomain), ipSubdomain)
+
+            with open(f"{cwd}{sep}Student Related Content{sep}Solutions{sep}Lab6{sep}172.16.50.{ipSubdomain}_solutions.json", "w") as solutionJson:
                 json.dump(self.solutionsDict, solutionJson, indent=4)
         
 
         #========[Write final JSONs]===========#
-        with open(f"{self.web_wd}{sep}JSONs{sep}database.json", "w") as dataBase:
+        with open(f"{self.web_wd}{sep}JSONs{sep}accountDB.json", "w") as dataBase:
             json.dump(self.dictAccount, dataBase, indent=4)
 
-        with open(f"{self.web_wd}{sep}JSONs{sep}cookies.json", "w") as cookieDB:
+        with open(f"{self.web_wd}{sep}JSONs{sep}magicNumber.json", "w") as cookieDB:
             json.dump(self.cookiesDict, cookieDB, indent=4)
         
-        with open(f"{self.web_wd}{sep}JSONs{sep}defacement.json", "w") as dataBase:
-            json.dump(self.defacementDict, dataBase, indent=4)
     
 
 if __name__ == "__main__":

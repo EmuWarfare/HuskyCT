@@ -58,7 +58,7 @@ def loggedIn():
 
     
     elif (not lab_4) and request.method == "GET" and ("username" in request.args.keys()):
-        response = pageLogic.transferMoney(user, request.args["username"], request.args["money"])
+        response = pageLogic.transferMoney(user, request.args["username"], request.args["money"], request.remote_addr)
         print(response)
         return response
 

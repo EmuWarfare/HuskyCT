@@ -14,6 +14,7 @@ class CoreUserFunctionality():
         self.passCookieName = "LOGIN_INFO"
         self.userPageLogout = UserPageLogout()
         self.accountsPath = f"{cwd}{sep}webapp{sep}JSONs{sep}accountDB.json"
+        self.magicNumbersPath = f"{cwd}{sep}webapp{sep}JSONs{sep}magicNumber.json"
 
     def logOut(self):
         resp = make_response(redirect('/'))
@@ -66,13 +67,14 @@ class TransferPage(CoreUserFunctionality):
         super().__init__()
         self.transferInput = TransferInput()
         self.dataBase = json.load(open(self.accountsPath, "r"))
+        self.magicNumbers = json.load(open(self.magicNumbersPath, "r"))
     
 
-    def loadPage(self, username, script="", transfer=False, moneyAmount=None, invalidTransfer=None, xss=True, alert=False):
+    def loadPage(self, username, script="", transfer=False, moneyAmount=None, invalidTransfer=None, alert=False):
         return make_response(render_template('transferPage.html', balance=self.dataBase[username]['balance'], 
-        transferPg=self.transferInput, lg=self.userPageLogout, alert=alert, xss=xss, script=script,transferHappened=transfer, moneyAmount=moneyAmount, user=username, invalidTransfer=invalidTransfer))
+        transferPg=self.transferInput, lg=self.userPageLogout, alert=alert, script=script,transferHappened=transfer, moneyAmount=moneyAmount, user=username, invalidTransfer=invalidTransfer))
     
-    def transferMoney(self, user, recipient=None, money=None):
+    def transferMoney(self, user, recipient=None, money=None, ip=None):
         recipient = recipient if recipient != None else self.transferInput.username.data
         moneyAmount = money if money != None else self.transferInput.moneyAmount.data
         try:
@@ -93,21 +95,16 @@ class TransferPage(CoreUserFunctionality):
 
                 transferLock.release()
 
-                return self.loadPage(user, transfer=True, moneyAmount=moneyAmount, xss=True)
+                return self.loadPage(user, transfer=True, moneyAmount=moneyAmount)
             else:
                 #make this the only vulnerble input box, specifically does not escape characters, https://flask.palletsprojects.com/en/2.2.x/templating/
-                if recipient and not moneyAmount:
-                    self.alert = False
-                    self.xss = True
-                    resp = make_response(self.loadPage(user, script=recipient, xss=True ))
-                    # resp.set_cookie("Q3Cookie", str(cookies[ip]["Q3Cookie"]))
-                    return resp
-                # if (int(moneyAmount)==666):
-                self.xss = True
-                self.alert = True
-                return self.loadPage(user, xss=True)
+                self.alert = False
+                cookieValue = str(self.magicNumbers[ip]["Q3Cookie"])
+                resp = make_response(self.loadPage(user, script=recipient, transfer=True, moneyAmount=moneyAmount))
+                resp.set_cookie("Q3Cookie", cookieValue)
+                return resp
         except:
-            return self.loadPage(user, transfer=True, moneyAmount=moneyAmount)
+            return self.loadPage(user, transfer=False, moneyAmount=moneyAmount)
     
     def validate_cookie(self):
         return True

