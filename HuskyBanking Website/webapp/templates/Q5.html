@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+
+<body>
+    <h1>This is the Q5 page.</h1>
+    <form id="transfer-form">
+        <p>Please enter the username and the amount of money to be transfered.</p>
+
+        <p id="userName"> {{ transferPg.username.label }}: {{ transferPg.username(size=32)|safe }} </p>
+
+	    <p id="moneyAmount"> {{ transferPg.moneyAmount.label }}: {{ transferPg.moneyAmount(size=32) }} </p>
+
+	    <p id="transfer">{{ transferPg.transfer() }}</p>
+
+    </form>
+
+    {% if transfer %}
+    {% autoescape false %}
+
+        <p>Money has been transfered! The ammount was {{ moneyAmount }}</p>
+
+
+    {% endautoescape %}
+    {% endif %}
+
+</body>
+
+
+</html>

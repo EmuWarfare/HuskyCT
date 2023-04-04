@@ -66,7 +66,13 @@ def Q4():
 ###############
 @app.route("/Q5", methods=["GET", "POST"])
 def Q5():
-    return
+    image_script = '<script>var img = document.createElement("img"); \
+img.src = "http://www.google.com/intl/en_com/images/logo_plain.png"; \
+var form = document.getElementById("transfer-form"); \
+form.appendChild(img); </script>'
+
+
+    return render_template("q5.html", script=image_script)
 
 
 @app.route("/recieve", methods=["GET", "POST"])

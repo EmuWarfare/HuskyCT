@@ -5,7 +5,7 @@ import json
 from webapp.input import LoginInput
 from webapp.logic.loginLogic import LoginPage
 from webapp.logic.userPageLogic import TransferPage, PlainUserPage
-from webapp.logic.defacementLogic import Q4index
+from webapp.logic.defacementLogic import Q4index, DefacementPage
 from flask import render_template, redirect, request, flash, make_response
 from flask_wtf import Form
 from flask_wtf.csrf import CSRFError
@@ -104,10 +104,25 @@ def cookieIndex():
 # ######################
 # ## Custom Q5 Routes ##
 # ######################
-# @app.route('/Q5', methods=['GET'])
-# def wrongPage():
-#     q5 = DefacementPage()
-#     return q5.wrongPage()
+@app.route('/Q5', methods=['GET', 'POST'])
+def wrongPage():
+    if lab_4:
+        return redirect("/")
+    
+
+    q5 = DefacementPage()
+
+    if request.method == 'GET' and len(request.args) != 0:
+        try:
+            return q5.transfer(request.args["money"])
+        except:
+            return q5.load_page()  
+
+    elif request.method == 'POST':
+        return q5.transfer()
+    
+    else:
+        return q5.load_page()
 
 # @app.route('/Q5xss', methods=['GET'])
 # def Q5xss():

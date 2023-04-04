@@ -45,26 +45,14 @@ class Q4index():
     
 
 
-# class DefacementPage():
-#     defacementPath = f"{cwd}/webapp/defacement.json"
-#     defacement = open(defacementPath, "r")
-#     defacement = json.load(defacement)
-#     def getResponse(self, usr, suffix, ip):
-#         defacementLock.acquire()
-#         correct = str(self.defacement[ip]["suffix"]) == str(suffix)
-
-#         if correct:
-#             if self.defacement[ip]["access"] != "True":
-#                 self.defacement[ip]["access"] = "True"
-#                 with open(self.defacementPath, "w") as f:
-#                     print("Writing True\n")
-#                     json.dump(self.defacement, f, indent=4)
-#             defacementLock.release()
-#             return send_file(f"{cwd}\webapp\static\images\staticNames\defacement\cat.jpg")
-
-        
-#         defacementLock.release()
-#         return send_file(f"{cwd}\webapp\static\images\staticNames\defacement\wrong_string.jpg")
+class DefacementPage():
+    def __init__(self) -> None:
+        self.transfer_input = TransferInput()
     
-#     def wrongPage(self):
-#         return send_file(f"{cwd}\webapp\static\images\staticNames\defacement\wrong_route.jpg")
+    def load_page(self):
+        return render_template("Q5.html", transferPg = self.transfer_input, transfer=False, moneyAmount=0)
+
+    def transfer(self, moneyAmount=None):
+        moneyAmount = moneyAmount if moneyAmount != None else self.transfer_input.moneyAmount.data
+
+        return render_template("Q5.html", transferPg=self.transfer_input, transfer=True, moneyAmount=moneyAmount)
