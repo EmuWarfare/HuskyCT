@@ -156,6 +156,8 @@ class LocalGeneration():
         with open(f"{self.web_wd}{sep}JSONs{sep}magicNumber.json", "w") as cookieDB:
             json.dump(self.cookiesDict, cookieDB, indent=4)
         
+        tokenPath = f"{cwd}{sep}Student Related Content{sep}Tokens"
+        self.tokenDataFrame.to_csv(f"{tokenPath}{sep}Lab_6.csv")
     
 
 if __name__ == "__main__":

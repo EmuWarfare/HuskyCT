@@ -1,1287 +1,1282 @@
 {
-    "127.0.0.1": {
-        "magicNumber": 3,
-        "cookie": 68719,
-        "Q3Cookie": 49677
-    },
     "172.16.50.0": {
-        "magicNumber": 283,
-        "cookie": 68719,
-        "Q3Cookie": 49677
+        "magicNumber": 913,
+        "cookie": 44175,
+        "Q3Cookie": 14239
     },
     "172.16.50.1": {
-        "magicNumber": 679,
-        "cookie": 31868,
-        "Q3Cookie": 56930
+        "magicNumber": 949,
+        "cookie": 53181,
+        "Q3Cookie": 11445
     },
     "172.16.50.2": {
-        "magicNumber": 409,
-        "cookie": 8171,
-        "Q3Cookie": 45132
+        "magicNumber": 269,
+        "cookie": 91432,
+        "Q3Cookie": 37376
     },
     "172.16.50.3": {
-        "magicNumber": 479,
-        "cookie": 83174,
-        "Q3Cookie": 75668
+        "magicNumber": 655,
+        "cookie": 72723,
+        "Q3Cookie": 99728
     },
     "172.16.50.4": {
-        "magicNumber": 890,
-        "cookie": 70002,
-        "Q3Cookie": 82988
+        "magicNumber": 802,
+        "cookie": 96945,
+        "Q3Cookie": 86713
     },
     "172.16.50.5": {
-        "magicNumber": 140,
-        "cookie": 43448,
-        "Q3Cookie": 17920
+        "magicNumber": 913,
+        "cookie": 14044,
+        "Q3Cookie": 10756
     },
     "172.16.50.6": {
-        "magicNumber": 209,
-        "cookie": 5756,
-        "Q3Cookie": 43204
+        "magicNumber": 294,
+        "cookie": 75099,
+        "Q3Cookie": 27646
     },
     "172.16.50.7": {
-        "magicNumber": 951,
-        "cookie": 27503,
-        "Q3Cookie": 73286
+        "magicNumber": 33,
+        "cookie": 19473,
+        "Q3Cookie": 30096
     },
     "172.16.50.8": {
-        "magicNumber": 186,
-        "cookie": 75935,
-        "Q3Cookie": 48285
+        "magicNumber": 848,
+        "cookie": 89773,
+        "Q3Cookie": 71937
     },
     "172.16.50.9": {
-        "magicNumber": 2,
-        "cookie": 68090,
-        "Q3Cookie": 43168
+        "magicNumber": 25,
+        "cookie": 35668,
+        "Q3Cookie": 29708
     },
     "172.16.50.10": {
-        "magicNumber": 741,
-        "cookie": 91039,
-        "Q3Cookie": 17653
+        "magicNumber": 6,
+        "cookie": 20055,
+        "Q3Cookie": 91247
     },
     "172.16.50.11": {
-        "magicNumber": 188,
-        "cookie": 71933,
-        "Q3Cookie": 93382
+        "magicNumber": 895,
+        "cookie": 80077,
+        "Q3Cookie": 65473
     },
     "172.16.50.12": {
-        "magicNumber": 210,
-        "cookie": 53020,
-        "Q3Cookie": 64348
+        "magicNumber": 900,
+        "cookie": 66482,
+        "Q3Cookie": 68536
     },
     "172.16.50.13": {
-        "magicNumber": 181,
-        "cookie": 58199,
-        "Q3Cookie": 67473
+        "magicNumber": 221,
+        "cookie": 58462,
+        "Q3Cookie": 4250
     },
     "172.16.50.14": {
-        "magicNumber": 229,
-        "cookie": 15089,
-        "Q3Cookie": 83628
+        "magicNumber": 770,
+        "cookie": 96873,
+        "Q3Cookie": 20203
     },
     "172.16.50.15": {
-        "magicNumber": 681,
-        "cookie": 55266,
-        "Q3Cookie": 2258
+        "magicNumber": 182,
+        "cookie": 5232,
+        "Q3Cookie": 68178
     },
     "172.16.50.16": {
-        "magicNumber": 517,
-        "cookie": 21360,
-        "Q3Cookie": 62469
+        "magicNumber": 281,
+        "cookie": 87509,
+        "Q3Cookie": 10807
     },
     "172.16.50.17": {
-        "magicNumber": 983,
-        "cookie": 24508,
-        "Q3Cookie": 83416
+        "magicNumber": 324,
+        "cookie": 55364,
+        "Q3Cookie": 51589
     },
     "172.16.50.18": {
-        "magicNumber": 624,
-        "cookie": 6220,
-        "Q3Cookie": 73721
+        "magicNumber": 771,
+        "cookie": 20821,
+        "Q3Cookie": 84712
     },
     "172.16.50.19": {
-        "magicNumber": 282,
-        "cookie": 8889,
-        "Q3Cookie": 23961
+        "magicNumber": 598,
+        "cookie": 68963,
+        "Q3Cookie": 92295
     },
     "172.16.50.20": {
-        "magicNumber": 598,
-        "cookie": 54396,
-        "Q3Cookie": 98068
+        "magicNumber": 799,
+        "cookie": 79216,
+        "Q3Cookie": 25133
     },
     "172.16.50.21": {
-        "magicNumber": 125,
-        "cookie": 12556,
-        "Q3Cookie": 99887
+        "magicNumber": 900,
+        "cookie": 42846,
+        "Q3Cookie": 47851
     },
     "172.16.50.22": {
-        "magicNumber": 361,
-        "cookie": 50970,
-        "Q3Cookie": 74375
+        "magicNumber": 274,
+        "cookie": 52364,
+        "Q3Cookie": 46352
     },
     "172.16.50.23": {
-        "magicNumber": 329,
-        "cookie": 650,
-        "Q3Cookie": 12008
+        "magicNumber": 208,
+        "cookie": 16895,
+        "Q3Cookie": 40980
     },
     "172.16.50.24": {
-        "magicNumber": 749,
-        "cookie": 35157,
-        "Q3Cookie": 45350
+        "magicNumber": 32,
+        "cookie": 83914,
+        "Q3Cookie": 88505
     },
     "172.16.50.25": {
-        "magicNumber": 398,
-        "cookie": 96019,
-        "Q3Cookie": 65893
+        "magicNumber": 926,
+        "cookie": 10129,
+        "Q3Cookie": 69436
     },
     "172.16.50.26": {
-        "magicNumber": 3,
-        "cookie": 90716,
-        "Q3Cookie": 14962
+        "magicNumber": 516,
+        "cookie": 1875,
+        "Q3Cookie": 73090
     },
     "172.16.50.27": {
-        "magicNumber": 584,
-        "cookie": 49854,
-        "Q3Cookie": 50851
+        "magicNumber": 49,
+        "cookie": 36147,
+        "Q3Cookie": 21698
     },
     "172.16.50.28": {
-        "magicNumber": 291,
-        "cookie": 31180,
-        "Q3Cookie": 54004
+        "magicNumber": 752,
+        "cookie": 35824,
+        "Q3Cookie": 51647
     },
     "172.16.50.29": {
-        "magicNumber": 670,
-        "cookie": 9226,
-        "Q3Cookie": 51041
+        "magicNumber": 76,
+        "cookie": 49373,
+        "Q3Cookie": 71677
     },
     "172.16.50.30": {
-        "magicNumber": 449,
-        "cookie": 10771,
-        "Q3Cookie": 78843
+        "magicNumber": 670,
+        "cookie": 36911,
+        "Q3Cookie": 33577
     },
     "172.16.50.31": {
-        "magicNumber": 500,
-        "cookie": 4169,
-        "Q3Cookie": 109
+        "magicNumber": 630,
+        "cookie": 34924,
+        "Q3Cookie": 422
     },
     "172.16.50.32": {
-        "magicNumber": 988,
-        "cookie": 61019,
-        "Q3Cookie": 96507
+        "magicNumber": 253,
+        "cookie": 6992,
+        "Q3Cookie": 61110
     },
     "172.16.50.33": {
-        "magicNumber": 673,
-        "cookie": 85950,
-        "Q3Cookie": 73612
+        "magicNumber": 280,
+        "cookie": 92627,
+        "Q3Cookie": 73892
     },
     "172.16.50.34": {
-        "magicNumber": 293,
-        "cookie": 24651,
-        "Q3Cookie": 1849
+        "magicNumber": 334,
+        "cookie": 43198,
+        "Q3Cookie": 54242
     },
     "172.16.50.35": {
-        "magicNumber": 855,
-        "cookie": 61954,
-        "Q3Cookie": 24619
+        "magicNumber": 717,
+        "cookie": 84770,
+        "Q3Cookie": 34047
     },
     "172.16.50.36": {
-        "magicNumber": 56,
-        "cookie": 37655,
-        "Q3Cookie": 71263
+        "magicNumber": 49,
+        "cookie": 50971,
+        "Q3Cookie": 99937
     },
     "172.16.50.37": {
-        "magicNumber": 670,
-        "cookie": 99174,
-        "Q3Cookie": 51392
+        "magicNumber": 345,
+        "cookie": 56912,
+        "Q3Cookie": 72654
     },
     "172.16.50.38": {
-        "magicNumber": 824,
-        "cookie": 66383,
-        "Q3Cookie": 75050
+        "magicNumber": 1,
+        "cookie": 98509,
+        "Q3Cookie": 90440
     },
     "172.16.50.39": {
-        "magicNumber": 800,
-        "cookie": 37841,
-        "Q3Cookie": 11292
+        "magicNumber": 547,
+        "cookie": 19977,
+        "Q3Cookie": 34895
     },
     "172.16.50.40": {
-        "magicNumber": 659,
-        "cookie": 56646,
-        "Q3Cookie": 60214
+        "magicNumber": 429,
+        "cookie": 9759,
+        "Q3Cookie": 82082
     },
     "172.16.50.41": {
-        "magicNumber": 56,
-        "cookie": 47651,
-        "Q3Cookie": 32378
+        "magicNumber": 377,
+        "cookie": 19540,
+        "Q3Cookie": 13711
     },
     "172.16.50.42": {
-        "magicNumber": 907,
-        "cookie": 74677,
-        "Q3Cookie": 53646
+        "magicNumber": 223,
+        "cookie": 84434,
+        "Q3Cookie": 97114
     },
     "172.16.50.43": {
-        "magicNumber": 324,
-        "cookie": 37203,
-        "Q3Cookie": 49344
+        "magicNumber": 456,
+        "cookie": 68393,
+        "Q3Cookie": 49145
     },
     "172.16.50.44": {
-        "magicNumber": 648,
-        "cookie": 73721,
-        "Q3Cookie": 77983
+        "magicNumber": 849,
+        "cookie": 83863,
+        "Q3Cookie": 8598
     },
     "172.16.50.45": {
-        "magicNumber": 873,
-        "cookie": 6158,
-        "Q3Cookie": 46222
+        "magicNumber": 703,
+        "cookie": 63457,
+        "Q3Cookie": 22706
     },
     "172.16.50.46": {
-        "magicNumber": 415,
-        "cookie": 30709,
-        "Q3Cookie": 34447
+        "magicNumber": 676,
+        "cookie": 95057,
+        "Q3Cookie": 34227
     },
     "172.16.50.47": {
-        "magicNumber": 480,
-        "cookie": 25452,
-        "Q3Cookie": 59216
+        "magicNumber": 128,
+        "cookie": 59597,
+        "Q3Cookie": 91204
     },
     "172.16.50.48": {
-        "magicNumber": 456,
-        "cookie": 53490,
-        "Q3Cookie": 79423
+        "magicNumber": 469,
+        "cookie": 6631,
+        "Q3Cookie": 25711
     },
     "172.16.50.49": {
-        "magicNumber": 993,
-        "cookie": 47860,
-        "Q3Cookie": 93757
+        "magicNumber": 450,
+        "cookie": 71654,
+        "Q3Cookie": 4243
     },
     "172.16.50.50": {
-        "magicNumber": 955,
-        "cookie": 61742,
-        "Q3Cookie": 50386
+        "magicNumber": 56,
+        "cookie": 88171,
+        "Q3Cookie": 19461
     },
     "172.16.50.51": {
-        "magicNumber": 241,
-        "cookie": 9876,
-        "Q3Cookie": 88420
+        "magicNumber": 402,
+        "cookie": 79028,
+        "Q3Cookie": 79181
     },
     "172.16.50.52": {
-        "magicNumber": 993,
-        "cookie": 42875,
-        "Q3Cookie": 85837
+        "magicNumber": 615,
+        "cookie": 60043,
+        "Q3Cookie": 65731
     },
     "172.16.50.53": {
-        "magicNumber": 526,
-        "cookie": 59463,
-        "Q3Cookie": 95139
+        "magicNumber": 924,
+        "cookie": 34265,
+        "Q3Cookie": 7872
     },
     "172.16.50.54": {
-        "magicNumber": 243,
-        "cookie": 25445,
-        "Q3Cookie": 13600
+        "magicNumber": 310,
+        "cookie": 98974,
+        "Q3Cookie": 72133
     },
     "172.16.50.55": {
-        "magicNumber": 468,
-        "cookie": 11421,
-        "Q3Cookie": 93485
+        "magicNumber": 11,
+        "cookie": 60064,
+        "Q3Cookie": 36300
     },
     "172.16.50.56": {
-        "magicNumber": 406,
-        "cookie": 84072,
-        "Q3Cookie": 94866
+        "magicNumber": 434,
+        "cookie": 31954,
+        "Q3Cookie": 69876
     },
     "172.16.50.57": {
-        "magicNumber": 365,
-        "cookie": 62699,
-        "Q3Cookie": 78533
+        "magicNumber": 39,
+        "cookie": 92746,
+        "Q3Cookie": 9595
     },
     "172.16.50.58": {
-        "magicNumber": 613,
-        "cookie": 91000,
-        "Q3Cookie": 98450
+        "magicNumber": 755,
+        "cookie": 85353,
+        "Q3Cookie": 7215
     },
     "172.16.50.59": {
-        "magicNumber": 228,
-        "cookie": 42169,
-        "Q3Cookie": 39783
+        "magicNumber": 274,
+        "cookie": 15859,
+        "Q3Cookie": 41046
     },
     "172.16.50.60": {
-        "magicNumber": 436,
-        "cookie": 87119,
-        "Q3Cookie": 32425
+        "magicNumber": 478,
+        "cookie": 60656,
+        "Q3Cookie": 8040
     },
     "172.16.50.61": {
-        "magicNumber": 636,
-        "cookie": 7278,
-        "Q3Cookie": 12821
+        "magicNumber": 321,
+        "cookie": 10119,
+        "Q3Cookie": 97718
     },
     "172.16.50.62": {
-        "magicNumber": 829,
-        "cookie": 96750,
-        "Q3Cookie": 32492
+        "magicNumber": 819,
+        "cookie": 1393,
+        "Q3Cookie": 39956
     },
     "172.16.50.63": {
-        "magicNumber": 311,
-        "cookie": 88137,
-        "Q3Cookie": 92711
+        "magicNumber": 676,
+        "cookie": 58106,
+        "Q3Cookie": 87119
     },
     "172.16.50.64": {
-        "magicNumber": 1,
-        "cookie": 43924,
-        "Q3Cookie": 1557
+        "magicNumber": 295,
+        "cookie": 28487,
+        "Q3Cookie": 31675
     },
     "172.16.50.65": {
-        "magicNumber": 624,
-        "cookie": 47485,
-        "Q3Cookie": 39096
+        "magicNumber": 111,
+        "cookie": 1688,
+        "Q3Cookie": 31716
     },
     "172.16.50.66": {
-        "magicNumber": 538,
-        "cookie": 80418,
-        "Q3Cookie": 49048
+        "magicNumber": 466,
+        "cookie": 46759,
+        "Q3Cookie": 89475
     },
     "172.16.50.67": {
-        "magicNumber": 535,
-        "cookie": 43689,
-        "Q3Cookie": 55337
+        "magicNumber": 155,
+        "cookie": 41315,
+        "Q3Cookie": 78071
     },
     "172.16.50.68": {
-        "magicNumber": 243,
-        "cookie": 6700,
-        "Q3Cookie": 99570
+        "magicNumber": 82,
+        "cookie": 45129,
+        "Q3Cookie": 33172
     },
     "172.16.50.69": {
-        "magicNumber": 982,
-        "cookie": 92616,
-        "Q3Cookie": 40196
+        "magicNumber": 652,
+        "cookie": 39995,
+        "Q3Cookie": 41054
     },
     "172.16.50.70": {
-        "magicNumber": 637,
-        "cookie": 59245,
-        "Q3Cookie": 17509
+        "magicNumber": 512,
+        "cookie": 42057,
+        "Q3Cookie": 75547
     },
     "172.16.50.71": {
-        "magicNumber": 860,
-        "cookie": 21737,
-        "Q3Cookie": 3856
+        "magicNumber": 529,
+        "cookie": 72371,
+        "Q3Cookie": 36690
     },
     "172.16.50.72": {
-        "magicNumber": 443,
-        "cookie": 43662,
-        "Q3Cookie": 45163
+        "magicNumber": 445,
+        "cookie": 52318,
+        "Q3Cookie": 51586
     },
     "172.16.50.73": {
-        "magicNumber": 231,
-        "cookie": 99993,
-        "Q3Cookie": 88003
+        "magicNumber": 995,
+        "cookie": 69834,
+        "Q3Cookie": 10255
     },
     "172.16.50.74": {
-        "magicNumber": 371,
-        "cookie": 9973,
-        "Q3Cookie": 81451
+        "magicNumber": 806,
+        "cookie": 35634,
+        "Q3Cookie": 47948
     },
     "172.16.50.75": {
-        "magicNumber": 622,
-        "cookie": 99459,
-        "Q3Cookie": 8710
+        "magicNumber": 404,
+        "cookie": 32371,
+        "Q3Cookie": 15783
     },
     "172.16.50.76": {
-        "magicNumber": 24,
-        "cookie": 54303,
-        "Q3Cookie": 18340
+        "magicNumber": 871,
+        "cookie": 20221,
+        "Q3Cookie": 60989
     },
     "172.16.50.77": {
-        "magicNumber": 143,
-        "cookie": 7678,
-        "Q3Cookie": 88633
+        "magicNumber": 947,
+        "cookie": 90756,
+        "Q3Cookie": 65875
     },
     "172.16.50.78": {
-        "magicNumber": 882,
-        "cookie": 5468,
-        "Q3Cookie": 77279
+        "magicNumber": 105,
+        "cookie": 80845,
+        "Q3Cookie": 97601
     },
     "172.16.50.79": {
-        "magicNumber": 355,
-        "cookie": 37656,
-        "Q3Cookie": 91331
+        "magicNumber": 455,
+        "cookie": 52198,
+        "Q3Cookie": 2192
     },
     "172.16.50.80": {
-        "magicNumber": 69,
-        "cookie": 91763,
-        "Q3Cookie": 760
+        "magicNumber": 478,
+        "cookie": 90819,
+        "Q3Cookie": 86086
     },
     "172.16.50.81": {
-        "magicNumber": 110,
-        "cookie": 83553,
-        "Q3Cookie": 88802
+        "magicNumber": 344,
+        "cookie": 45546,
+        "Q3Cookie": 38419
     },
     "172.16.50.82": {
-        "magicNumber": 643,
-        "cookie": 75867,
-        "Q3Cookie": 90008
+        "magicNumber": 7,
+        "cookie": 1030,
+        "Q3Cookie": 69137
     },
     "172.16.50.83": {
-        "magicNumber": 652,
-        "cookie": 87301,
-        "Q3Cookie": 69420
+        "magicNumber": 997,
+        "cookie": 92917,
+        "Q3Cookie": 35091
     },
     "172.16.50.84": {
-        "magicNumber": 297,
-        "cookie": 86678,
-        "Q3Cookie": 21603
+        "magicNumber": 859,
+        "cookie": 66892,
+        "Q3Cookie": 3632
     },
     "172.16.50.85": {
-        "magicNumber": 392,
-        "cookie": 81831,
-        "Q3Cookie": 85295
+        "magicNumber": 40,
+        "cookie": 74375,
+        "Q3Cookie": 74208
     },
     "172.16.50.86": {
-        "magicNumber": 853,
-        "cookie": 37804,
-        "Q3Cookie": 47161
+        "magicNumber": 471,
+        "cookie": 33936,
+        "Q3Cookie": 71228
     },
     "172.16.50.87": {
-        "magicNumber": 598,
-        "cookie": 1485,
-        "Q3Cookie": 7312
+        "magicNumber": 336,
+        "cookie": 580,
+        "Q3Cookie": 1269
     },
     "172.16.50.88": {
-        "magicNumber": 757,
-        "cookie": 67586,
-        "Q3Cookie": 66064
+        "magicNumber": 455,
+        "cookie": 59989,
+        "Q3Cookie": 88006
     },
     "172.16.50.89": {
-        "magicNumber": 662,
-        "cookie": 91444,
-        "Q3Cookie": 61180
+        "magicNumber": 62,
+        "cookie": 65526,
+        "Q3Cookie": 29133
     },
     "172.16.50.90": {
-        "magicNumber": 567,
-        "cookie": 62195,
-        "Q3Cookie": 48327
+        "magicNumber": 289,
+        "cookie": 83579,
+        "Q3Cookie": 44331
     },
     "172.16.50.91": {
-        "magicNumber": 726,
-        "cookie": 47593,
-        "Q3Cookie": 86105
+        "magicNumber": 652,
+        "cookie": 92381,
+        "Q3Cookie": 59095
     },
     "172.16.50.92": {
-        "magicNumber": 325,
-        "cookie": 90694,
-        "Q3Cookie": 84906
+        "magicNumber": 571,
+        "cookie": 87472,
+        "Q3Cookie": 86792
     },
     "172.16.50.93": {
-        "magicNumber": 118,
-        "cookie": 56887,
-        "Q3Cookie": 74123
+        "magicNumber": 16,
+        "cookie": 10572,
+        "Q3Cookie": 93260
     },
     "172.16.50.94": {
-        "magicNumber": 572,
-        "cookie": 44895,
-        "Q3Cookie": 39482
+        "magicNumber": 198,
+        "cookie": 30011,
+        "Q3Cookie": 40867
     },
     "172.16.50.95": {
-        "magicNumber": 45,
-        "cookie": 66554,
-        "Q3Cookie": 92244
+        "magicNumber": 772,
+        "cookie": 84645,
+        "Q3Cookie": 82405
     },
     "172.16.50.96": {
-        "magicNumber": 282,
-        "cookie": 33358,
-        "Q3Cookie": 17936
+        "magicNumber": 419,
+        "cookie": 43866,
+        "Q3Cookie": 65396
     },
     "172.16.50.97": {
-        "magicNumber": 684,
-        "cookie": 29532,
-        "Q3Cookie": 49400
+        "magicNumber": 55,
+        "cookie": 85578,
+        "Q3Cookie": 10778
     },
     "172.16.50.98": {
-        "magicNumber": 686,
-        "cookie": 25261,
-        "Q3Cookie": 69369
+        "magicNumber": 661,
+        "cookie": 770,
+        "Q3Cookie": 97188
     },
     "172.16.50.99": {
-        "magicNumber": 484,
-        "cookie": 57640,
-        "Q3Cookie": 65070
+        "magicNumber": 893,
+        "cookie": 31742,
+        "Q3Cookie": 32984
     },
     "172.16.50.100": {
-        "magicNumber": 624,
-        "cookie": 30473,
-        "Q3Cookie": 25743
+        "magicNumber": 385,
+        "cookie": 31437,
+        "Q3Cookie": 89988
     },
     "172.16.50.101": {
-        "magicNumber": 400,
-        "cookie": 88469,
-        "Q3Cookie": 31492
+        "magicNumber": 313,
+        "cookie": 17968,
+        "Q3Cookie": 91277
     },
     "172.16.50.102": {
-        "magicNumber": 228,
-        "cookie": 95668,
-        "Q3Cookie": 86452
+        "magicNumber": 857,
+        "cookie": 45622,
+        "Q3Cookie": 97623
     },
     "172.16.50.103": {
-        "magicNumber": 544,
-        "cookie": 30970,
-        "Q3Cookie": 35243
+        "magicNumber": 998,
+        "cookie": 78668,
+        "Q3Cookie": 16304
     },
     "172.16.50.104": {
-        "magicNumber": 722,
-        "cookie": 85493,
-        "Q3Cookie": 73801
+        "magicNumber": 966,
+        "cookie": 33309,
+        "Q3Cookie": 95337
     },
     "172.16.50.105": {
-        "magicNumber": 386,
-        "cookie": 71532,
-        "Q3Cookie": 28925
+        "magicNumber": 828,
+        "cookie": 76699,
+        "Q3Cookie": 88500
     },
     "172.16.50.106": {
-        "magicNumber": 376,
-        "cookie": 25414,
-        "Q3Cookie": 75047
+        "magicNumber": 704,
+        "cookie": 85399,
+        "Q3Cookie": 23226
     },
     "172.16.50.107": {
-        "magicNumber": 876,
-        "cookie": 28738,
-        "Q3Cookie": 97198
+        "magicNumber": 783,
+        "cookie": 66918,
+        "Q3Cookie": 45033
     },
     "172.16.50.108": {
-        "magicNumber": 646,
-        "cookie": 78350,
-        "Q3Cookie": 93397
+        "magicNumber": 342,
+        "cookie": 69939,
+        "Q3Cookie": 28610
     },
     "172.16.50.109": {
-        "magicNumber": 764,
-        "cookie": 2154,
-        "Q3Cookie": 23395
+        "magicNumber": 375,
+        "cookie": 88246,
+        "Q3Cookie": 65090
     },
     "172.16.50.110": {
-        "magicNumber": 363,
-        "cookie": 65475,
-        "Q3Cookie": 2672
+        "magicNumber": 241,
+        "cookie": 15546,
+        "Q3Cookie": 70698
     },
     "172.16.50.111": {
-        "magicNumber": 401,
-        "cookie": 66359,
-        "Q3Cookie": 16380
+        "magicNumber": 227,
+        "cookie": 30603,
+        "Q3Cookie": 37488
     },
     "172.16.50.112": {
-        "magicNumber": 724,
-        "cookie": 3479,
-        "Q3Cookie": 3679
+        "magicNumber": 585,
+        "cookie": 45384,
+        "Q3Cookie": 64584
     },
     "172.16.50.113": {
-        "magicNumber": 10,
-        "cookie": 31256,
-        "Q3Cookie": 49066
+        "magicNumber": 294,
+        "cookie": 26847,
+        "Q3Cookie": 16229
     },
     "172.16.50.114": {
-        "magicNumber": 37,
-        "cookie": 610,
-        "Q3Cookie": 11055
+        "magicNumber": 122,
+        "cookie": 48444,
+        "Q3Cookie": 86384
     },
     "172.16.50.115": {
-        "magicNumber": 757,
-        "cookie": 3781,
-        "Q3Cookie": 96199
+        "magicNumber": 820,
+        "cookie": 25492,
+        "Q3Cookie": 20667
     },
     "172.16.50.116": {
-        "magicNumber": 135,
-        "cookie": 74540,
-        "Q3Cookie": 76536
+        "magicNumber": 240,
+        "cookie": 713,
+        "Q3Cookie": 24516
     },
     "172.16.50.117": {
-        "magicNumber": 460,
-        "cookie": 40983,
-        "Q3Cookie": 36449
+        "magicNumber": 129,
+        "cookie": 79352,
+        "Q3Cookie": 97770
     },
     "172.16.50.118": {
-        "magicNumber": 962,
-        "cookie": 6152,
-        "Q3Cookie": 95544
+        "magicNumber": 260,
+        "cookie": 94371,
+        "Q3Cookie": 47545
     },
     "172.16.50.119": {
-        "magicNumber": 445,
-        "cookie": 81432,
-        "Q3Cookie": 92224
+        "magicNumber": 711,
+        "cookie": 13270,
+        "Q3Cookie": 44050
     },
     "172.16.50.120": {
-        "magicNumber": 887,
-        "cookie": 72267,
-        "Q3Cookie": 71823
+        "magicNumber": 193,
+        "cookie": 25477,
+        "Q3Cookie": 95006
     },
     "172.16.50.121": {
-        "magicNumber": 829,
-        "cookie": 17290,
-        "Q3Cookie": 85677
+        "magicNumber": 733,
+        "cookie": 35692,
+        "Q3Cookie": 45760
     },
     "172.16.50.122": {
-        "magicNumber": 628,
-        "cookie": 55135,
-        "Q3Cookie": 70574
+        "magicNumber": 428,
+        "cookie": 12788,
+        "Q3Cookie": 57294
     },
     "172.16.50.123": {
-        "magicNumber": 518,
-        "cookie": 7098,
-        "Q3Cookie": 91927
+        "magicNumber": 967,
+        "cookie": 65880,
+        "Q3Cookie": 44652
     },
     "172.16.50.124": {
-        "magicNumber": 47,
-        "cookie": 48062,
-        "Q3Cookie": 2542
+        "magicNumber": 223,
+        "cookie": 82257,
+        "Q3Cookie": 79215
     },
     "172.16.50.125": {
-        "magicNumber": 930,
-        "cookie": 85771,
-        "Q3Cookie": 51032
+        "magicNumber": 438,
+        "cookie": 16796,
+        "Q3Cookie": 8195
     },
     "172.16.50.126": {
-        "magicNumber": 102,
-        "cookie": 35243,
-        "Q3Cookie": 69709
+        "magicNumber": 50,
+        "cookie": 62111,
+        "Q3Cookie": 813
     },
     "172.16.50.127": {
-        "magicNumber": 280,
-        "cookie": 12790,
-        "Q3Cookie": 73084
+        "magicNumber": 255,
+        "cookie": 62494,
+        "Q3Cookie": 68107
     },
     "172.16.50.128": {
-        "magicNumber": 963,
-        "cookie": 72012,
-        "Q3Cookie": 85805
+        "magicNumber": 616,
+        "cookie": 81036,
+        "Q3Cookie": 99083
     },
     "172.16.50.129": {
-        "magicNumber": 129,
-        "cookie": 72356,
-        "Q3Cookie": 89764
+        "magicNumber": 773,
+        "cookie": 97149,
+        "Q3Cookie": 93390
     },
     "172.16.50.130": {
-        "magicNumber": 807,
-        "cookie": 89931,
-        "Q3Cookie": 64703
+        "magicNumber": 295,
+        "cookie": 69184,
+        "Q3Cookie": 45077
     },
     "172.16.50.131": {
-        "magicNumber": 767,
-        "cookie": 53231,
-        "Q3Cookie": 983
+        "magicNumber": 764,
+        "cookie": 60783,
+        "Q3Cookie": 23324
     },
     "172.16.50.132": {
-        "magicNumber": 247,
-        "cookie": 31003,
-        "Q3Cookie": 38838
+        "magicNumber": 50,
+        "cookie": 70562,
+        "Q3Cookie": 44027
     },
     "172.16.50.133": {
-        "magicNumber": 452,
-        "cookie": 16267,
-        "Q3Cookie": 53853
+        "magicNumber": 230,
+        "cookie": 95654,
+        "Q3Cookie": 76052
     },
     "172.16.50.134": {
-        "magicNumber": 296,
-        "cookie": 16373,
-        "Q3Cookie": 93157
+        "magicNumber": 209,
+        "cookie": 11372,
+        "Q3Cookie": 34014
     },
     "172.16.50.135": {
-        "magicNumber": 562,
-        "cookie": 58755,
-        "Q3Cookie": 28658
+        "magicNumber": 946,
+        "cookie": 39295,
+        "Q3Cookie": 21001
     },
     "172.16.50.136": {
-        "magicNumber": 176,
-        "cookie": 35415,
-        "Q3Cookie": 96204
+        "magicNumber": 805,
+        "cookie": 67945,
+        "Q3Cookie": 98087
     },
     "172.16.50.137": {
-        "magicNumber": 149,
-        "cookie": 43441,
-        "Q3Cookie": 90353
+        "magicNumber": 952,
+        "cookie": 65794,
+        "Q3Cookie": 27313
     },
     "172.16.50.138": {
-        "magicNumber": 345,
-        "cookie": 22189,
-        "Q3Cookie": 5448
+        "magicNumber": 29,
+        "cookie": 59455,
+        "Q3Cookie": 93189
     },
     "172.16.50.139": {
-        "magicNumber": 937,
-        "cookie": 41090,
-        "Q3Cookie": 70216
+        "magicNumber": 938,
+        "cookie": 85084,
+        "Q3Cookie": 10630
     },
     "172.16.50.140": {
-        "magicNumber": 322,
-        "cookie": 58272,
-        "Q3Cookie": 17777
+        "magicNumber": 232,
+        "cookie": 11166,
+        "Q3Cookie": 78321
     },
     "172.16.50.141": {
-        "magicNumber": 386,
-        "cookie": 26335,
-        "Q3Cookie": 3220
+        "magicNumber": 19,
+        "cookie": 85142,
+        "Q3Cookie": 20350
     },
     "172.16.50.142": {
-        "magicNumber": 872,
-        "cookie": 41622,
-        "Q3Cookie": 94559
+        "magicNumber": 538,
+        "cookie": 61760,
+        "Q3Cookie": 14067
     },
     "172.16.50.143": {
-        "magicNumber": 750,
-        "cookie": 68465,
-        "Q3Cookie": 89274
+        "magicNumber": 274,
+        "cookie": 89635,
+        "Q3Cookie": 48111
     },
     "172.16.50.144": {
-        "magicNumber": 839,
-        "cookie": 70412,
-        "Q3Cookie": 12449
+        "magicNumber": 954,
+        "cookie": 46253,
+        "Q3Cookie": 4236
     },
     "172.16.50.145": {
-        "magicNumber": 551,
-        "cookie": 98623,
-        "Q3Cookie": 54049
+        "magicNumber": 794,
+        "cookie": 14247,
+        "Q3Cookie": 37520
     },
     "172.16.50.146": {
-        "magicNumber": 102,
-        "cookie": 3956,
-        "Q3Cookie": 26417
+        "magicNumber": 528,
+        "cookie": 72137,
+        "Q3Cookie": 88477
     },
     "172.16.50.147": {
-        "magicNumber": 718,
-        "cookie": 86185,
-        "Q3Cookie": 65758
+        "magicNumber": 152,
+        "cookie": 33907,
+        "Q3Cookie": 48088
     },
     "172.16.50.148": {
-        "magicNumber": 179,
-        "cookie": 20690,
-        "Q3Cookie": 56003
+        "magicNumber": 986,
+        "cookie": 10121,
+        "Q3Cookie": 59917
     },
     "172.16.50.149": {
-        "magicNumber": 218,
-        "cookie": 11655,
-        "Q3Cookie": 82330
+        "magicNumber": 616,
+        "cookie": 71226,
+        "Q3Cookie": 72316
     },
     "172.16.50.150": {
-        "magicNumber": 391,
-        "cookie": 32284,
-        "Q3Cookie": 52417
+        "magicNumber": 558,
+        "cookie": 79452,
+        "Q3Cookie": 39369
     },
     "172.16.50.151": {
-        "magicNumber": 860,
-        "cookie": 99763,
-        "Q3Cookie": 54733
+        "magicNumber": 664,
+        "cookie": 48649,
+        "Q3Cookie": 81732
     },
     "172.16.50.152": {
-        "magicNumber": 152,
-        "cookie": 23038,
-        "Q3Cookie": 88874
+        "magicNumber": 370,
+        "cookie": 95810,
+        "Q3Cookie": 88741
     },
     "172.16.50.153": {
-        "magicNumber": 192,
-        "cookie": 66548,
-        "Q3Cookie": 27877
+        "magicNumber": 221,
+        "cookie": 69446,
+        "Q3Cookie": 3959
     },
     "172.16.50.154": {
-        "magicNumber": 971,
-        "cookie": 84842,
-        "Q3Cookie": 34954
+        "magicNumber": 200,
+        "cookie": 8794,
+        "Q3Cookie": 71684
     },
     "172.16.50.155": {
-        "magicNumber": 874,
-        "cookie": 20516,
-        "Q3Cookie": 37737
+        "magicNumber": 846,
+        "cookie": 72616,
+        "Q3Cookie": 1875
     },
     "172.16.50.156": {
-        "magicNumber": 641,
-        "cookie": 93649,
-        "Q3Cookie": 71780
+        "magicNumber": 571,
+        "cookie": 3534,
+        "Q3Cookie": 51515
     },
     "172.16.50.157": {
-        "magicNumber": 320,
-        "cookie": 92629,
-        "Q3Cookie": 368
+        "magicNumber": 592,
+        "cookie": 34863,
+        "Q3Cookie": 96022
     },
     "172.16.50.158": {
-        "magicNumber": 938,
-        "cookie": 39117,
-        "Q3Cookie": 96771
+        "magicNumber": 879,
+        "cookie": 22496,
+        "Q3Cookie": 17416
     },
     "172.16.50.159": {
-        "magicNumber": 630,
-        "cookie": 76210,
-        "Q3Cookie": 28860
+        "magicNumber": 342,
+        "cookie": 4500,
+        "Q3Cookie": 26205
     },
     "172.16.50.160": {
-        "magicNumber": 306,
-        "cookie": 4871,
-        "Q3Cookie": 45907
+        "magicNumber": 539,
+        "cookie": 56870,
+        "Q3Cookie": 34384
     },
     "172.16.50.161": {
-        "magicNumber": 138,
-        "cookie": 54216,
-        "Q3Cookie": 13851
+        "magicNumber": 506,
+        "cookie": 46388,
+        "Q3Cookie": 38686
     },
     "172.16.50.162": {
-        "magicNumber": 669,
-        "cookie": 81654,
-        "Q3Cookie": 35511
+        "magicNumber": 344,
+        "cookie": 67451,
+        "Q3Cookie": 84981
     },
     "172.16.50.163": {
-        "magicNumber": 613,
-        "cookie": 79172,
-        "Q3Cookie": 57782
+        "magicNumber": 375,
+        "cookie": 30253,
+        "Q3Cookie": 65299
     },
     "172.16.50.164": {
-        "magicNumber": 890,
-        "cookie": 7532,
-        "Q3Cookie": 90095
+        "magicNumber": 487,
+        "cookie": 7754,
+        "Q3Cookie": 64281
     },
     "172.16.50.165": {
-        "magicNumber": 825,
-        "cookie": 666,
-        "Q3Cookie": 69461
+        "magicNumber": 658,
+        "cookie": 9930,
+        "Q3Cookie": 94563
     },
     "172.16.50.166": {
-        "magicNumber": 9,
-        "cookie": 4195,
-        "Q3Cookie": 40458
+        "magicNumber": 575,
+        "cookie": 52210,
+        "Q3Cookie": 48130
     },
     "172.16.50.167": {
-        "magicNumber": 386,
-        "cookie": 24368,
-        "Q3Cookie": 69819
+        "magicNumber": 519,
+        "cookie": 28889,
+        "Q3Cookie": 61191
     },
     "172.16.50.168": {
-        "magicNumber": 748,
-        "cookie": 43293,
-        "Q3Cookie": 44839
+        "magicNumber": 249,
+        "cookie": 30453,
+        "Q3Cookie": 83245
     },
     "172.16.50.169": {
-        "magicNumber": 970,
-        "cookie": 28995,
-        "Q3Cookie": 27567
+        "magicNumber": 5,
+        "cookie": 92016,
+        "Q3Cookie": 45983
     },
     "172.16.50.170": {
-        "magicNumber": 599,
-        "cookie": 33540,
-        "Q3Cookie": 7640
+        "magicNumber": 812,
+        "cookie": 2203,
+        "Q3Cookie": 67758
     },
     "172.16.50.171": {
-        "magicNumber": 525,
-        "cookie": 37227,
-        "Q3Cookie": 71665
+        "magicNumber": 88,
+        "cookie": 15536,
+        "Q3Cookie": 72808
     },
     "172.16.50.172": {
-        "magicNumber": 682,
-        "cookie": 71629,
-        "Q3Cookie": 17559
+        "magicNumber": 722,
+        "cookie": 19008,
+        "Q3Cookie": 61211
     },
     "172.16.50.173": {
-        "magicNumber": 236,
-        "cookie": 6631,
-        "Q3Cookie": 38476
+        "magicNumber": 697,
+        "cookie": 6419,
+        "Q3Cookie": 22847
     },
     "172.16.50.174": {
-        "magicNumber": 362,
-        "cookie": 4240,
-        "Q3Cookie": 61254
+        "magicNumber": 654,
+        "cookie": 97900,
+        "Q3Cookie": 15663
     },
     "172.16.50.175": {
-        "magicNumber": 309,
-        "cookie": 53365,
-        "Q3Cookie": 65562
+        "magicNumber": 819,
+        "cookie": 39325,
+        "Q3Cookie": 21993
     },
     "172.16.50.176": {
-        "magicNumber": 487,
-        "cookie": 41860,
-        "Q3Cookie": 35132
+        "magicNumber": 857,
+        "cookie": 5807,
+        "Q3Cookie": 7370
     },
     "172.16.50.177": {
-        "magicNumber": 371,
-        "cookie": 52681,
-        "Q3Cookie": 51199
+        "magicNumber": 488,
+        "cookie": 19843,
+        "Q3Cookie": 22673
     },
     "172.16.50.178": {
-        "magicNumber": 298,
-        "cookie": 91319,
-        "Q3Cookie": 13555
+        "magicNumber": 291,
+        "cookie": 54857,
+        "Q3Cookie": 17308
     },
     "172.16.50.179": {
-        "magicNumber": 522,
-        "cookie": 50486,
-        "Q3Cookie": 83555
+        "magicNumber": 29,
+        "cookie": 46795,
+        "Q3Cookie": 7296
     },
     "172.16.50.180": {
-        "magicNumber": 125,
-        "cookie": 4881,
-        "Q3Cookie": 83903
+        "magicNumber": 209,
+        "cookie": 90915,
+        "Q3Cookie": 1548
     },
     "172.16.50.181": {
-        "magicNumber": 555,
-        "cookie": 38643,
-        "Q3Cookie": 25180
+        "magicNumber": 328,
+        "cookie": 31013,
+        "Q3Cookie": 32429
     },
     "172.16.50.182": {
-        "magicNumber": 398,
-        "cookie": 50228,
-        "Q3Cookie": 82857
+        "magicNumber": 262,
+        "cookie": 92605,
+        "Q3Cookie": 14155
     },
     "172.16.50.183": {
-        "magicNumber": 363,
-        "cookie": 87447,
-        "Q3Cookie": 38446
+        "magicNumber": 544,
+        "cookie": 82218,
+        "Q3Cookie": 3042
     },
     "172.16.50.184": {
-        "magicNumber": 902,
-        "cookie": 59157,
-        "Q3Cookie": 20248
+        "magicNumber": 372,
+        "cookie": 88849,
+        "Q3Cookie": 19456
     },
     "172.16.50.185": {
-        "magicNumber": 469,
-        "cookie": 44119,
-        "Q3Cookie": 1251
+        "magicNumber": 941,
+        "cookie": 21564,
+        "Q3Cookie": 65433
     },
     "172.16.50.186": {
-        "magicNumber": 756,
-        "cookie": 6703,
-        "Q3Cookie": 75535
+        "magicNumber": 706,
+        "cookie": 20827,
+        "Q3Cookie": 13552
     },
     "172.16.50.187": {
-        "magicNumber": 995,
-        "cookie": 96666,
-        "Q3Cookie": 15401
+        "magicNumber": 467,
+        "cookie": 32445,
+        "Q3Cookie": 41544
     },
     "172.16.50.188": {
-        "magicNumber": 221,
-        "cookie": 51334,
-        "Q3Cookie": 65577
+        "magicNumber": 587,
+        "cookie": 15720,
+        "Q3Cookie": 2776
     },
     "172.16.50.189": {
-        "magicNumber": 186,
-        "cookie": 55633,
-        "Q3Cookie": 46302
+        "magicNumber": 690,
+        "cookie": 91357,
+        "Q3Cookie": 15528
     },
     "172.16.50.190": {
-        "magicNumber": 429,
-        "cookie": 50207,
-        "Q3Cookie": 29009
+        "magicNumber": 268,
+        "cookie": 7057,
+        "Q3Cookie": 21670
     },
     "172.16.50.191": {
-        "magicNumber": 942,
-        "cookie": 25235,
-        "Q3Cookie": 26097
+        "magicNumber": 223,
+        "cookie": 49791,
+        "Q3Cookie": 77012
     },
     "172.16.50.192": {
-        "magicNumber": 616,
-        "cookie": 30071,
-        "Q3Cookie": 71382
+        "magicNumber": 259,
+        "cookie": 12388,
+        "Q3Cookie": 71960
     },
     "172.16.50.193": {
-        "magicNumber": 182,
-        "cookie": 59827,
-        "Q3Cookie": 38925
+        "magicNumber": 479,
+        "cookie": 29797,
+        "Q3Cookie": 46353
     },
     "172.16.50.194": {
-        "magicNumber": 813,
-        "cookie": 74605,
-        "Q3Cookie": 58482
+        "magicNumber": 598,
+        "cookie": 65130,
+        "Q3Cookie": 75913
     },
     "172.16.50.195": {
-        "magicNumber": 357,
-        "cookie": 54224,
-        "Q3Cookie": 93546
+        "magicNumber": 592,
+        "cookie": 62557,
+        "Q3Cookie": 61090
     },
     "172.16.50.196": {
-        "magicNumber": 890,
-        "cookie": 19159,
-        "Q3Cookie": 91566
+        "magicNumber": 689,
+        "cookie": 92155,
+        "Q3Cookie": 18194
     },
     "172.16.50.197": {
-        "magicNumber": 72,
-        "cookie": 95386,
-        "Q3Cookie": 75844
+        "magicNumber": 606,
+        "cookie": 99208,
+        "Q3Cookie": 77657
     },
     "172.16.50.198": {
-        "magicNumber": 987,
-        "cookie": 96211,
-        "Q3Cookie": 35602
+        "magicNumber": 490,
+        "cookie": 33965,
+        "Q3Cookie": 83594
     },
     "172.16.50.199": {
-        "magicNumber": 239,
-        "cookie": 38757,
-        "Q3Cookie": 60661
+        "magicNumber": 815,
+        "cookie": 71228,
+        "Q3Cookie": 54706
     },
     "172.16.50.200": {
-        "magicNumber": 839,
-        "cookie": 12924,
-        "Q3Cookie": 56192
+        "magicNumber": 141,
+        "cookie": 21299,
+        "Q3Cookie": 3229
     },
     "172.16.50.201": {
-        "magicNumber": 425,
-        "cookie": 92355,
-        "Q3Cookie": 6662
+        "magicNumber": 944,
+        "cookie": 95424,
+        "Q3Cookie": 99002
     },
     "172.16.50.202": {
-        "magicNumber": 607,
-        "cookie": 10925,
-        "Q3Cookie": 7665
+        "magicNumber": 702,
+        "cookie": 72577,
+        "Q3Cookie": 65529
     },
     "172.16.50.203": {
-        "magicNumber": 194,
-        "cookie": 74539,
-        "Q3Cookie": 20665
+        "magicNumber": 64,
+        "cookie": 70509,
+        "Q3Cookie": 64766
     },
     "172.16.50.204": {
-        "magicNumber": 674,
-        "cookie": 10740,
-        "Q3Cookie": 50676
+        "magicNumber": 413,
+        "cookie": 1616,
+        "Q3Cookie": 71523
     },
     "172.16.50.205": {
-        "magicNumber": 711,
-        "cookie": 79359,
-        "Q3Cookie": 45496
+        "magicNumber": 428,
+        "cookie": 11003,
+        "Q3Cookie": 20094
     },
     "172.16.50.206": {
-        "magicNumber": 590,
-        "cookie": 18786,
-        "Q3Cookie": 59290
+        "magicNumber": 663,
+        "cookie": 16312,
+        "Q3Cookie": 66029
     },
     "172.16.50.207": {
-        "magicNumber": 713,
-        "cookie": 73340,
-        "Q3Cookie": 3640
+        "magicNumber": 577,
+        "cookie": 57331,
+        "Q3Cookie": 25028
     },
     "172.16.50.208": {
-        "magicNumber": 467,
-        "cookie": 79730,
-        "Q3Cookie": 42834
+        "magicNumber": 74,
+        "cookie": 80521,
+        "Q3Cookie": 29473
     },
     "172.16.50.209": {
-        "magicNumber": 551,
-        "cookie": 76447,
-        "Q3Cookie": 20696
+        "magicNumber": 631,
+        "cookie": 93310,
+        "Q3Cookie": 24728
     },
     "172.16.50.210": {
-        "magicNumber": 649,
-        "cookie": 57782,
-        "Q3Cookie": 45618
+        "magicNumber": 339,
+        "cookie": 66122,
+        "Q3Cookie": 18807
     },
     "172.16.50.211": {
-        "magicNumber": 340,
-        "cookie": 60644,
-        "Q3Cookie": 38029
+        "magicNumber": 729,
+        "cookie": 830,
+        "Q3Cookie": 71146
     },
     "172.16.50.212": {
-        "magicNumber": 292,
-        "cookie": 49891,
-        "Q3Cookie": 89857
+        "magicNumber": 90,
+        "cookie": 42514,
+        "Q3Cookie": 43418
     },
     "172.16.50.213": {
-        "magicNumber": 778,
-        "cookie": 76643,
-        "Q3Cookie": 6179
+        "magicNumber": 772,
+        "cookie": 67895,
+        "Q3Cookie": 65302
     },
     "172.16.50.214": {
-        "magicNumber": 668,
-        "cookie": 11805,
-        "Q3Cookie": 11123
+        "magicNumber": 787,
+        "cookie": 2067,
+        "Q3Cookie": 39426
     },
     "172.16.50.215": {
-        "magicNumber": 421,
-        "cookie": 78056,
-        "Q3Cookie": 59817
+        "magicNumber": 590,
+        "cookie": 44489,
+        "Q3Cookie": 69792
     },
     "172.16.50.216": {
-        "magicNumber": 13,
-        "cookie": 28097,
-        "Q3Cookie": 60758
+        "magicNumber": 284,
+        "cookie": 35913,
+        "Q3Cookie": 34103
     },
     "172.16.50.217": {
-        "magicNumber": 885,
-        "cookie": 32311,
-        "Q3Cookie": 29637
+        "magicNumber": 16,
+        "cookie": 37057,
+        "Q3Cookie": 92440
     },
     "172.16.50.218": {
-        "magicNumber": 398,
-        "cookie": 79690,
-        "Q3Cookie": 54223
+        "magicNumber": 990,
+        "cookie": 65717,
+        "Q3Cookie": 60481
     },
     "172.16.50.219": {
-        "magicNumber": 746,
-        "cookie": 70560,
-        "Q3Cookie": 71966
+        "magicNumber": 235,
+        "cookie": 42896,
+        "Q3Cookie": 14702
     },
     "172.16.50.220": {
-        "magicNumber": 478,
-        "cookie": 5743,
-        "Q3Cookie": 55421
+        "magicNumber": 109,
+        "cookie": 75142,
+        "Q3Cookie": 49018
     },
     "172.16.50.221": {
-        "magicNumber": 684,
-        "cookie": 51544,
-        "Q3Cookie": 25749
+        "magicNumber": 437,
+        "cookie": 54865,
+        "Q3Cookie": 12590
     },
     "172.16.50.222": {
-        "magicNumber": 427,
-        "cookie": 49430,
-        "Q3Cookie": 61780
+        "magicNumber": 805,
+        "cookie": 33354,
+        "Q3Cookie": 91042
     },
     "172.16.50.223": {
-        "magicNumber": 661,
-        "cookie": 90763,
-        "Q3Cookie": 91114
+        "magicNumber": 465,
+        "cookie": 35448,
+        "Q3Cookie": 75740
     },
     "172.16.50.224": {
-        "magicNumber": 883,
-        "cookie": 44087,
-        "Q3Cookie": 52403
+        "magicNumber": 169,
+        "cookie": 84170,
+        "Q3Cookie": 72740
     },
     "172.16.50.225": {
-        "magicNumber": 861,
-        "cookie": 83863,
-        "Q3Cookie": 82514
+        "magicNumber": 126,
+        "cookie": 40347,
+        "Q3Cookie": 54768
     },
     "172.16.50.226": {
-        "magicNumber": 109,
-        "cookie": 70215,
-        "Q3Cookie": 49501
+        "magicNumber": 501,
+        "cookie": 16107,
+        "Q3Cookie": 16508
     },
     "172.16.50.227": {
-        "magicNumber": 129,
-        "cookie": 13744,
-        "Q3Cookie": 37869
+        "magicNumber": 12,
+        "cookie": 63135,
+        "Q3Cookie": 42943
     },
     "172.16.50.228": {
-        "magicNumber": 933,
-        "cookie": 97882,
-        "Q3Cookie": 41391
+        "magicNumber": 739,
+        "cookie": 91513,
+        "Q3Cookie": 45232
     },
     "172.16.50.229": {
-        "magicNumber": 718,
-        "cookie": 31689,
-        "Q3Cookie": 39687
+        "magicNumber": 50,
+        "cookie": 47021,
+        "Q3Cookie": 34409
     },
     "172.16.50.230": {
-        "magicNumber": 18,
-        "cookie": 57641,
-        "Q3Cookie": 26628
+        "magicNumber": 482,
+        "cookie": 46229,
+        "Q3Cookie": 89039
     },
     "172.16.50.231": {
-        "magicNumber": 177,
-        "cookie": 94151,
-        "Q3Cookie": 17654
+        "magicNumber": 989,
+        "cookie": 87222,
+        "Q3Cookie": 84428
     },
     "172.16.50.232": {
-        "magicNumber": 808,
-        "cookie": 44467,
-        "Q3Cookie": 12565
+        "magicNumber": 965,
+        "cookie": 97715,
+        "Q3Cookie": 68049
     },
     "172.16.50.233": {
-        "magicNumber": 222,
-        "cookie": 57758,
-        "Q3Cookie": 75746
+        "magicNumber": 383,
+        "cookie": 67013,
+        "Q3Cookie": 65675
     },
     "172.16.50.234": {
-        "magicNumber": 893,
-        "cookie": 8475,
-        "Q3Cookie": 94246
+        "magicNumber": 160,
+        "cookie": 42678,
+        "Q3Cookie": 11554
     },
     "172.16.50.235": {
-        "magicNumber": 756,
-        "cookie": 74083,
-        "Q3Cookie": 65992
+        "magicNumber": 563,
+        "cookie": 29396,
+        "Q3Cookie": 11061
     },
     "172.16.50.236": {
-        "magicNumber": 451,
-        "cookie": 89611,
-        "Q3Cookie": 14662
+        "magicNumber": 411,
+        "cookie": 36242,
+        "Q3Cookie": 676
     },
     "172.16.50.237": {
-        "magicNumber": 897,
-        "cookie": 86030,
-        "Q3Cookie": 82320
+        "magicNumber": 86,
+        "cookie": 3575,
+        "Q3Cookie": 32310
     },
     "172.16.50.238": {
-        "magicNumber": 55,
-        "cookie": 65615,
-        "Q3Cookie": 62390
+        "magicNumber": 44,
+        "cookie": 91496,
+        "Q3Cookie": 97478
     },
     "172.16.50.239": {
-        "magicNumber": 507,
-        "cookie": 67948,
-        "Q3Cookie": 22596
+        "magicNumber": 703,
+        "cookie": 65385,
+        "Q3Cookie": 9584
     },
     "172.16.50.240": {
-        "magicNumber": 383,
-        "cookie": 54772,
-        "Q3Cookie": 73337
+        "magicNumber": 496,
+        "cookie": 82989,
+        "Q3Cookie": 61825
     },
     "172.16.50.241": {
-        "magicNumber": 6,
-        "cookie": 75393,
-        "Q3Cookie": 6789
+        "magicNumber": 996,
+        "cookie": 77828,
+        "Q3Cookie": 72792
     },
     "172.16.50.242": {
-        "magicNumber": 124,
-        "cookie": 380,
-        "Q3Cookie": 17491
+        "magicNumber": 293,
+        "cookie": 10968,
+        "Q3Cookie": 28110
     },
     "172.16.50.243": {
-        "magicNumber": 64,
-        "cookie": 15524,
-        "Q3Cookie": 41973
+        "magicNumber": 55,
+        "cookie": 61221,
+        "Q3Cookie": 3010
     },
     "172.16.50.244": {
-        "magicNumber": 429,
-        "cookie": 82145,
-        "Q3Cookie": 58808
+        "magicNumber": 426,
+        "cookie": 62218,
+        "Q3Cookie": 15910
     },
     "172.16.50.245": {
-        "magicNumber": 812,
-        "cookie": 69877,
-        "Q3Cookie": 25681
+        "magicNumber": 79,
+        "cookie": 59443,
+        "Q3Cookie": 30194
     },
     "172.16.50.246": {
-        "magicNumber": 650,
-        "cookie": 14004,
-        "Q3Cookie": 51015
+        "magicNumber": 783,
+        "cookie": 49889,
+        "Q3Cookie": 8756
     },
     "172.16.50.247": {
-        "magicNumber": 437,
-        "cookie": 10701,
-        "Q3Cookie": 28357
+        "magicNumber": 506,
+        "cookie": 68826,
+        "Q3Cookie": 26121
     },
     "172.16.50.248": {
-        "magicNumber": 264,
-        "cookie": 58779,
-        "Q3Cookie": 26026
+        "magicNumber": 307,
+        "cookie": 18989,
+        "Q3Cookie": 71651
     },
     "172.16.50.249": {
-        "magicNumber": 689,
-        "cookie": 5481,
-        "Q3Cookie": 8719
+        "magicNumber": 308,
+        "cookie": 81806,
+        "Q3Cookie": 26865
     },
     "172.16.50.250": {
-        "magicNumber": 381,
-        "cookie": 53788,
-        "Q3Cookie": 24834
+        "magicNumber": 606,
+        "cookie": 29316,
+        "Q3Cookie": 6100
     },
     "172.16.50.251": {
-        "magicNumber": 667,
-        "cookie": 33328,
-        "Q3Cookie": 56048
+        "magicNumber": 132,
+        "cookie": 74328,
+        "Q3Cookie": 92933
     },
     "172.16.50.252": {
-        "magicNumber": 369,
-        "cookie": 13537,
-        "Q3Cookie": 448
+        "magicNumber": 359,
+        "cookie": 52329,
+        "Q3Cookie": 73726
     },
     "172.16.50.253": {
-        "magicNumber": 491,
-        "cookie": 83702,
-        "Q3Cookie": 84845
+        "magicNumber": 611,
+        "cookie": 60195,
+        "Q3Cookie": 69541
     },
     "172.16.50.254": {
-        "magicNumber": 581,
-        "cookie": 32900,
-        "Q3Cookie": 51956
+        "magicNumber": 830,
+        "cookie": 7824,
+        "Q3Cookie": 71301
     },
     "172.16.50.255": {
-        "magicNumber": 793,
-        "cookie": 3109,
-        "Q3Cookie": 37647
+        "magicNumber": 125,
+        "cookie": 98855,
+        "Q3Cookie": 64001
     }
 }
